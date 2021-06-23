@@ -33,6 +33,33 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<name>Spring Releases</name>
+			<url>https://repo.spring.io/libs-release</url>
+		</repository>
+
+		<repository>
+			<id>alibaba</id>
+			<name>alibaba Repository</name>
+			<url>https://maven.aliyun.com/repository/public</url>
+		</repository>
+	
+<repository>
+  <id>spring</id>
+  <url>https://maven.aliyun.com/repository/spring</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+
+
+	</repositories>
+
 	<build>
 		<plugins>
 			<plugin>
